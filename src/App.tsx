@@ -1,5 +1,11 @@
+import Navbar from "@/scenes/navbar";
+
 function App() {
-    return (<h1>"Hello world"</h1>)
+    return (
+        <div className="app bg-gray-20 bg-gray-50">
+            <Navbar />
+        </div>
+    )
 }
 
 export default App
